@@ -35,6 +35,6 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %{_bindir}/xset
-%{_mandir}/man1/xset.1x.bz2
+%{_mandir}/man1/xset.*
 
 
