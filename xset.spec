@@ -1,6 +1,6 @@
 Name: xset
 Version: 1.0.4
-Release: %mkrel 2
+Release: %mkrel 3
 Summary: User preference utility for X
 Group: Development/X11
 Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
