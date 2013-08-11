@@ -1,9 +1,9 @@
 Name: xset
-Version: 1.2.2
-Release: 2
+Version: 1.2.3
+Release: 1
 Summary: User preference utility for X
 Group: Development/X11
-Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
+Source0: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 License: MIT
 
 BuildRequires: pkgconfig(x11) >= 1.0.0
@@ -23,16 +23,11 @@ The xset program is used to set various user preference options of the display.
 %make
 
 %install
-rm -rf %{buildroot}
 %makeinstall_std
 
 #
 
-%clean
-rm -rf %{buildroot}
-
 %files
-%defattr(-,root,root)
 %{_bindir}/xset
 %{_mandir}/man1/xset.*
 
