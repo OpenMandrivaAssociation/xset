@@ -1,6 +1,6 @@
 Name: xset
 Version: 1.2.3
-Release: 9
+Release: 10
 Summary: User preference utility for X
 Group: Development/X11
 Source0: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
